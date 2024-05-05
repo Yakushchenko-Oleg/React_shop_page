@@ -5,11 +5,9 @@ import classes from './app.module.css'
 import { useState } from 'react';
 import ProductPage from './components/productPage/ProductPage';
 
-console.log(classes);
-
 function App() {
   const [catProducts, setCatProducts] = useState(['Рюкзаки', 'Футболки', 'Рубашки'])
-  
+
   const [sortCat, setSortCat] = useState(
     [
       {
@@ -107,7 +105,6 @@ function App() {
     image: "/louis-vuitton--M43186_PM2_Front view 1.svg"
   },
 ]
-
 
   return (
    <main className={classes.mainApp}>

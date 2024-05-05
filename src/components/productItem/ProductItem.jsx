@@ -1,10 +1,8 @@
 import React from 'react'
 import classes from './productItem.module.css'
-
 import star from './star.png'
 import cart from './cart.svg'
 import itemImage from './louis-vuitton--M43186_PM2_Front view 1.svg'
-
 
   const ProductItem = ({product}) => {
     

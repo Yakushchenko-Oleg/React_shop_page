@@ -8,10 +8,7 @@ const ProductPage = ({productList}) => {
     <div className={classes.productPage}>
       {
         productList && productList.map(product => <ProductItem product={product}/>)
-        
       }
-    
-      
     </div>
   )
 }
