@@ -1,0 +1,13 @@
+.dropdown{
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
+    grid-area: dropdown;
+    display: flex;
+    justify-content: right;
+    margin-top: 42px;
+    position: relative;
+    right: 0;
+}
+.dropdown__content{
+    
+}
